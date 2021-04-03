@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Project_TVFPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entities.statsVisitors</class>
+    <class>entities.topic</class>
+    <class>entities.paypal</class>
+    <class>entities.accounts</class>
+    <class>entities.purchase</class>
+    <class>entities.taxes</class>
+    <class>entities.shoppingCart</class>
+    <class>entities.country</class>
+    <class>entities.intermediate_Phxv</class>
+    <class>entities.Ptvf</class>
+    <class>entities.creditPaymentFormat</class>
+    <class>entities.link</class>
+    <class>entities.character</class>
+    <class>entities.discounts</class>
+    <class>entities.season</class>
+    <class>entities.event</class>
+    <class>entities.Bank</class>
+    <class>entities.Photo</class>
+    <class>entities.formatSelect</class>
+    <class>entities.discount</class>
+    <class>entities.statsVisitor</class>
+    <class>entities.phxva</class>
+    <class>entities.bank</class>
+    <class>entities.ptvf</class>
+    <class>entities.account</class>
+    <class>entities.photo</class>
+    <properties>
+      <property name="eclipselink.logging.level" value="FINE"/>
+      <property name="eclipselink.logging.parameters" value="true"/>
+      <property name="eclipselink.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="eclipselink.jdbc.user" value="is341116"/>
+      <property name="eclipselink.jdbc.password" value="mLxJyMMUUo"/>
+      <property name="eclipselink.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+    </properties>
+  </persistence-unit>
+</persistence>
